@@ -1,7 +1,5 @@
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.subject').forEach(item => {
-    item.addEventListener('click', () => {
-      item.classList.toggle('approved');
-    });
+document.querySelectorAll('.subject').forEach(item => {
+  item.addEventListener('click', () => {
+    item.classList.toggle('approved');
   });
 });
